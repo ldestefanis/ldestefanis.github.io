@@ -1,0 +1,175 @@
+/*Main Structure*/
+body {
+	font-family:Candara;
+	background:#CCB2DB;
+	color:white;
+	padding:5px
+}
+
+/*Main*/
+/*Header*/
+header {
+	padding:5px;
+	background:#9AC4DB ;
+	text-align:center;
+}
+/*Navigation*/
+#main-nav ul {
+	list-style-type:none;
+	padding:5px;
+}
+#main-nav li {
+	padding:5px;
+	background:pink;
+	border:0.5px solid white;
+}
+#main-nav a {
+	text-decoration:none;
+	color:white;
+	background:pink;
+}
+#main-nav {
+	padding:5px;
+	background:#BDDAAF;
+	padding-left:0;
+	text-decoration:none;
+	list-style-type:none;	
+}
+#main-nav a:hover {
+	background: #DC7E74;
+}
+#main-nav li:hover {
+	background: #DC7E74;
+	}		
+#usc {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:10px;
+}
+.hidden {	
+	display:none;
+}
+/*see more, see less*/
+#more, #see{
+	display:none;
+}
+#myBtn, #my2Btn {
+	border:none;
+	background-color:#CCB2DB;
+	cursor:pointer;
+	text-decoration:underline;
+	font-size:16px;
+	color:blue;
+}
+
+
+/*quiz*/
+#q1, #q2, #q3, #q4 {
+	padding:3px;
+}
+
+/*video*/
+#video {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	padding:10px;
+}
+
+/*Slideshow*/
+.fancy {
+	display:none;
+}
+#slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+}
+	
+#big-image {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+#small-images {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@media(min-width:720px) {
+	body {
+		background:#CCB2DB;
+	}
+	#content {
+		margin:auto;
+	}
+	#main-nav li {
+		display:inline;
+	}
+	#main-nav a {
+		display:inline;
+	}
+	#main-nav {
+		text-align:center;
+	}
+	#main-nav ul {
+		list-style-type:none;
+		text-align:center;
+	}
+	#main-nav li {
+		display:inline;
+		background:pink;
+	}
+	#main-nav a {
+		text-decoration:none;
+		background:pink;
+		color:white;
+		padding:5px
+	}
+	#main-nav {
+		padding:5px;
+		background:#BDDAAF ;
+	}
+	#main-nav a:hover {
+		background: #DC7E74;
+	}
+	#main-nav li:hover {
+		background: #DC7E74;
+	}
+	#small-images {
+	display:flex;
+	}
+	#mom {
+		flex:1;
+	}
+	#friends {
+		flex:2;
+	}
+	#roomies {
+		flex:2;
+	}
+	#vb {
+		flex:2;
+	}
+
+
+
+/*Footer*/
+footer {
+	padding:5px;
+	background:#BDDAAF;
+	text-align:center;
+}
+
+/*Contact Me Form*/
+	#name, #email, #message{
+		width:90%;
+		margin:auto;
+	}
+	#contactme {
+		background:#FFD7F6;
+		padding:10px;
+		border-radius:5px;
+	}

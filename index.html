@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+	<link rel="stylesheet" href="styles.css">
+	<!--Lauren DeStefanis
+	CSCE 102 
+	15
+	April 18, 2023
+	-->
+</head>
+<body>
+	<div id="content">
+		<header>
+			<h1>Lauren DeStefanis</h1>
+		</header>
+		<nav id="main-nav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="file:///X:/csce_102/project/quiz.html">Quiz</a></li>
+				<li><a href="file:///X:/csce_102/project/contact.html">Contact Me</a></li>
+			</ul>
+		</nav>
+	</div>
+		<main>
+		<div id="slideshow-container">
+				<img src="images/mom.jpg" id="big-image">
+		</div>
+		<div id="small-images">
+				<img src="images/mom-small.jpg "id="mom" onclick="showImage('images/mom.jpg')">
+				<img src="images/friends-small.jpg" id="friends"onclick="showImage('images/friends.jpg')">
+				<img src="images/roomies-small.jpg" id="roommates"onclick="showImage('images/roomies.jpg')">
+				<img src="images/vb-small.jpg" id="volleyball"onclick="showImage('images/vb.jpg')">
+		</div>
+		
+		<div id="container">
+			<section class="about-me">
+				<h2>About Me</h2>
+				<p>My name is Lauren DeStefanis and I am a second semester sophomore at the University of South Carolina studying biology with a minor in women and gender studies. I am from Milwaukee, Wisconsin, where I went to an all-girls Catholic High School. I played volleyball, basketball, and rugby in high school, and continue to play volleyball now on the club team and basketball on my sorority's intramural team. I love to read, watch netflix, go out to eat, and hang out with friends.
+				<span id="dots">...</span><span id="more">
+				<br><br>
+				I have two older brothers, Ben, who graduated from the University of Minnesota, and Joe, who is about to graduate from the University of Wisconsin. Clearly, I am the first child to move far away from home. I have a dog named Ruby who is my pride and joy and I miss her dearly when I'm here at school. My parents send me pictures of her every week, and if they forget I make sure to always remind them. 
+					</p>
+				</span>
+				<button onclick="myFunction()" id="myBtn">See more...</button>
+					
+			</section>
+			
+			<section class="career">
+				<h2>My Future Career Plans</h2>
+				<p>As a biology major, I plan to use my undergraduate education to apply to and attend Physician Assistant (PA) school. I currently work as a Certified Nursing Assistant (CNA) in the summers to earn experience and patient care hours, which PA schools require for application. I am working on completing all of the prerequisite courses I need to apply to PA school, and I feel that my Women and Gender Studies minor will give me a more educated perspective on things like women's health.
+				<span id="dot">...</span><span id="see">
+				<br><br>
+				I want to move back north for PA school, hopefully to either Milwaukee or Chicago. I am applying to Marquette University in Milwaukee, and to several Chicago schools including Rush University and Northwestern University. Being a PA will allow me to work in a wide range of specialties, but some of my top choices at the moment are dermatology, anesthesiology, and emergency medicine. I want to be in dermatology and hopefully start my own office when I start a family because the hours are very manageable.
+					</p>
+					<button onclick="seeMore()" id="my2Btn">See more...</button>
+				</div>
+			</section>
+			<section class="video">
+				<h2>What I learned from Computer Science</h2>
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/68fFwBsCAVQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</section>
+			<br>
+		</div>
+		</main>
+		<footer>
+			<p>&copy; Lauren DeStefanis</p>
+		</footer>
+<script src="script.js"></script>
+</body>
+</html>
